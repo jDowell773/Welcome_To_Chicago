@@ -1,7 +1,7 @@
 class Api::MuseumsController < ApplicationController
 
   def index
-    # @museums = Museum.all 
+    @museums = Museum.all 
     render 'index.json.jb' 
   end
 
