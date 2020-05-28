@@ -11,6 +11,11 @@ Rails.application.routes.draw do
      delete "/museums/:id" => "museums#destroy"
 
      post "/users" => "users#create"
+     get "/users/current" => "users#current"
+
+    #  post "/sessions" => "sessions#create"
+
+
 
 
    end
