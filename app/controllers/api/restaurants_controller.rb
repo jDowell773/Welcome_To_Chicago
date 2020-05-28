@@ -5,4 +5,9 @@ class Api::RestaurantsController < ApplicationController
     render 'index.json.jb' 
   end 
 
+  def show
+    @restaurant = Restaurant.find_by(id: params[:id])
+    render 'show.json.jb'
+  end
+
 end
