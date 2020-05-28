@@ -10,6 +10,8 @@ Rails.application.routes.draw do
      get "/museums/:id" => "museums#show"
      delete "/museums/:id" => "museums#destroy"
 
+     post "/users" => "users#create"
+
 
    end
 end
