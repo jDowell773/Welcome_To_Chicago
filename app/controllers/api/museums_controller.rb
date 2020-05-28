@@ -10,4 +10,10 @@ class Api::MuseumsController < ApplicationController
     render 'show.json.jb'
   end
 
+  def destroy
+    museum = Museum.find_by(id: params[:id])
+    museum.destroy 
+    render json: {message: "Museum successfully destroyed"}
+  end
+
 end

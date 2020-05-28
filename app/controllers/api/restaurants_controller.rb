@@ -10,4 +10,10 @@ class Api::RestaurantsController < ApplicationController
     render 'show.json.jb'
   end
 
+  def destroy
+    restaurant = Restaurant.find_by(id: params[:id])
+    restaurant.destroy
+    render json: {message: "Restaurant successfully destroyed"}
+  end 
+
 end
