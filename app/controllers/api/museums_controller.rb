@@ -5,4 +5,9 @@ class Api::MuseumsController < ApplicationController
     render 'index.json.jb' 
   end
 
+  def show
+    @museum = Museum.find_by(id: params[:id])
+    render 'show.json.jb'
+  end
+
 end

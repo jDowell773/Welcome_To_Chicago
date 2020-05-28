@@ -3,5 +3,5 @@
   name: @restaurant.name,
   location: @restaurant.location,
   image_url: @restaurant.image_url,
-  description: @restaurant.image_url
+  description: @restaurant.description
 }

@@ -1,0 +1,7 @@
+{
+  id: @museum.id,
+  name: @museum.name,
+  location: @museum.location,
+  image_url: @museum.image_url,
+  description: @museum.description
+}

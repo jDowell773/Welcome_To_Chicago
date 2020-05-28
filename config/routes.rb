@@ -6,6 +6,7 @@ Rails.application.routes.draw do
  
 
      get "/museums" => "museums#index"
+     get "/museums/:id" => "museums#show"
 
 
    end
