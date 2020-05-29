@@ -5,6 +5,9 @@ Rails.application.routes.draw do
     get "/bars/:id" => "bars#show"
     delete "/bars/:id" => "bars#destroy"
 
+    get "/clubs" => "clubs#index"
+    get "/clubs/:id" => "clubs#show"
+    delete "/clubs/:id" => "clubs#destroy"
 
     get "/restaurants" => "restaurants#index"
     get "/restaurants/:id" => "restaurants#show"
