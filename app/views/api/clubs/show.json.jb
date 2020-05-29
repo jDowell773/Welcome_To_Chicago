@@ -1,3 +1,7 @@
 {
-  message: "Sup Slime"
+  id: @club.id,
+  name: @club.name,
+  location: @club.location,
+  image_url: @club.image_url,
+  description: @club.description
 }

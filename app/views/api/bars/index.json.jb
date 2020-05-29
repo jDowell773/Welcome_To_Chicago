@@ -1,3 +1,9 @@
-{
-  message: "sup slime"
-}
+@bars.map do |bar|
+  {
+    id: bar.id,
+    name: bar.name,
+    location: bar.location,
+    image_url: bar.image_url,
+    description: bar.description
+  }
+  end 
