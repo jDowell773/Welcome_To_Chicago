@@ -17,6 +17,9 @@ Rails.application.routes.draw do
     get "/museums/:id" => "museums#show"
     delete "/museums/:id" => "museums#destroy"
 
+    get "/main_attractions" => "main_attractions#index"
+   #  get "/museums/:id" => "museums#show"
+
     post "/users" => "users#create"
     get "/users/current" => "users#current"
 
