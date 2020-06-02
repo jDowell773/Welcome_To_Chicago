@@ -1,0 +1,2 @@
+class MainAttraction < ApplicationRecord
+end
