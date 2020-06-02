@@ -10,4 +10,10 @@ class Api::MainAttractionsController < ApplicationController
     render 'show.json.jb'
   end
 
+  def destroy
+    main_attraction = Main_attraction.find_by(id: params[:id])
+    main_attraction.destroy 
+    render json: {message: "Main Attraction successfully destroyed"}
+  end
+
 end

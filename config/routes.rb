@@ -19,7 +19,7 @@ Rails.application.routes.draw do
 
     get "/main_attractions" => "main_attractions#index"
     get "/main_attractions/:id" => "main_attractions#show"
-   #  delete "/main_attractions/:id" => "main_attractions#destroy"
+    delete "/main_attractions/:id" => "main_attractions#destroy"
 
 
     post "/users" => "users#create"
