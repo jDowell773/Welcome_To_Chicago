@@ -9,16 +9,16 @@
 
 # Restaurants 
 
-# Restaurant.create(name: "Catch 35", location: "Wacker drive", image_url: "", description: "upscale seafood restaurant located on Wacker drive in Chicago")
+Restaurant.create(name: "Catch 35", location: "Wacker drive", image_url: "", description: "upscale seafood restaurant located on Wacker drive in Chicago")
 
-# Restaurant.create(name: "Gino's East", location: "downtown", image_url: "", description: "Italian style pizzeria located in dowwntown Chicago")
+Restaurant.create(name: "Gino's East", location: "downtown", image_url: "", description: "Italian style pizzeria located in dowwntown Chicago")
 
 
 # Museums
 
-# Museum.create(name: "Science and Industry", location: "southside", image_url: "", description: "museum located on the southside of Chicago")
+Museum.create(name: "Science and Industry", location: "southside", image_url: "", description: "museum located on the southside of Chicago")
 
-# Museum.create(name: "Field Museum", location: "downtown", image_url: "", description: "museum located just south of the downtown are in Chicago")
+Museum.create(name: "Field Museum", location: "downtown", image_url: "", description: "museum located just south of the downtown are in Chicago")
 
 
 # Bars
